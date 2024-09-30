@@ -1,1 +1,3 @@
-Year,Value
+Year,SOURCE_DETAIL,SEX,Value
+2019,"ZIMSTAT, ICT Survey",F,72.5
+2022,"Zimstat, 2022 PHC",M,87.0

@@ -12,7 +12,41 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MICS(2019)",
+                "Zimstat, 2022 PHC",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ZW_BA",
+                "ZW_MA",
+                "ZW_MC",
+                "ZW_ME",
+                "ZW_MW",
+                "ZW_MN",
+                "ZW_MS",
+                "ZW_MI",
+                "ZW_MV",
+                "ZW_HA",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",

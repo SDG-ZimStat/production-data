@@ -16,7 +16,19 @@
             "title": "Year"
           },
           {
-            "name": "Reference area",
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ZIMSTAT, MICS",
+                "Zimstat, 2022 PHC",
+                ""
+              ]
+            },
+            "title": "Source details"
+          },
+          {
+            "name": "REF_AREA",
             "type": "string",
             "constraints": {
               "enum": [
@@ -34,6 +46,11 @@
               ]
             },
             "title": "Reference area"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

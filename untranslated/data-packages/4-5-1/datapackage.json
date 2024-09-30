@@ -12,7 +12,18 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "SE_GPI_PTNPRE",
+                "SE_LGP_ACHI",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

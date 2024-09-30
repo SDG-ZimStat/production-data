@@ -15,23 +15,38 @@
             "type": "integer"
           },
           {
-            "name": "Reference area",
+            "name": "SOURCE_DETAIL",
             "type": "string",
             "constraints": {
               "enum": [
-                "Bulawayo",
-                "Manicaland",
-                "Mashonaland Central",
-                "Masholanad East",
-                "Mashonaland West",
-                "Matabeland North",
-                "Matabeland South",
-                "Midlands",
-                "Masvingo",
-                "Harare",
+                "ZIMSTAT, MICS",
+                "ZIMSTAT,2022 PHC",
                 ""
               ]
             }
+          },
+          {
+            "name": "REF_AREA",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ZW_BA",
+                "ZW_MA",
+                "ZW_MC",
+                "ZW_ME",
+                "ZW_MW",
+                "ZW_MN",
+                "ZW_MS",
+                "ZW_MI",
+                "ZW_MV",
+                "ZW_HA",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
           },
           {
             "name": "Value",
