@@ -16,6 +16,51 @@
             "title": "Year"
           },
           {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Normal value",
+                ""
+              ]
+            },
+            "title": "Observation status"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ZDHS",
+                "Zimstat_2022_PHC",
+                ""
+              ]
+            },
+            "title": "Source details"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Maternal mortality ratio [3.1.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
             "name": "REF_AREA",
             "type": "string",
             "constraints": {
@@ -34,6 +79,17 @@
               ]
             },
             "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Per 1,000 live births",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
           },
           {
             "name": "GeoCode",

@@ -1,2 +1,2 @@
-Year,Value
-2015,50
+Year,Observation status,Unit multiplier,Source details,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2015,Normal value,Units,FCZ,Forest area as a proportion of total land area [15.1.1],,Percent,,50

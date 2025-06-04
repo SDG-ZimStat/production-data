@@ -16,6 +16,28 @@
             "title": "Year"
           },
           {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Normal value",
+                ""
+              ]
+            },
+            "title": "Observation status"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
             "name": "SOURCE_DETAIL",
             "type": "string",
             "constraints": {
@@ -28,28 +50,43 @@
             "title": "Source details"
           },
           {
-            "name": "Series",
+            "name": "SERIES",
             "type": "string",
             "constraints": {
               "enum": [
-                "EN_WWT_TREATR",
-                "EN_WWT_WWDS",
+                "Proportion of wastewater treated [6.3.1]",
+                "Proportion of safely treated domestic wastewater flows [6.3.1]",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "SDG Series"
           },
           {
-            "name": "Units",
-            "type": "string",
+            "name": "REF_AREA",
+            "type": "number",
             "constraints": {
               "enum": [
-                "PT",
-                "CON_USD",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                "Constant USD",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
           },
           {
             "name": "Value",

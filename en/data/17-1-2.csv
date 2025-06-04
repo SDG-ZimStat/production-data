@@ -1,5 +1,5 @@
-Year,Value
-2019,90
-2021,88
-2022,97
-2023,95
+Year,Observation status,Unit multiplier,Source details,SERIES,Reference area,UNIT_MEASURE,GeoCode,Value
+2019,Normal value,Units,MoFED,Proportion of domestic budget funded by domestic taxes [17.1.2],,Percent,,90
+2021,Normal value,Units,MoFED,Proportion of domestic budget funded by domestic taxes [17.1.2],,Percent,,88
+2022,Normal value,Units,MoFED,Proportion of domestic budget funded by domestic taxes [17.1.2],,Percent,,97
+2023,Normal value,Units,MoFED,Proportion of domestic budget funded by domestic taxes [17.1.2],,Percent,,95
