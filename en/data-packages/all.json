@@ -2709,8 +2709,8 @@
       "title": "Proportion of urban population living in slums, informal settlements or inadequate housing"
     },
     {
-      "path": "12-2-2/data.csv",
-      "name": "12-2-2",
+      "path": "8-4-2/data.csv",
+      "name": "8-4-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2805,100 +2805,6 @@
       "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
     },
     {
-      "path": "8-4-1/data.csv",
-      "name": "8-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "OBS_STATUS",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Normal value",
-                ""
-              ]
-            },
-            "title": "Observation status"
-          },
-          {
-            "name": "UNIT_MULT",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Units",
-                ""
-              ]
-            },
-            "title": "Unit multiplier"
-          },
-          {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "RBZ_MMCZ_FGR_Zimstat",
-                ""
-              ]
-            },
-            "title": "SOURCE_DETAIL"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Material footprint per capita [8.4.1, 12.2.1]",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "REF_AREA",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percent",
-                ""
-              ]
-            },
-            "title": "Unit of measure"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Material footprint, material footprint per capita, and material footprint per GDP"
-    },
-    {
       "path": "12-2-1/data.csv",
       "name": "12-2-1",
       "profile": "tabular-data-resource",
@@ -2951,6 +2857,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Material footprint per capita [8.4.1, 12.2.1]",
                 "Material footprint per unit of GDP [8.4.1, 12.2.1]",
                 "Material footprint [8.4.1, 12.2.1]",
                 ""
@@ -3130,99 +3037,6 @@
             "constraints": {
               "enum": [
                 "Compliance_documents_available_CCMD",
-                ""
-              ]
-            },
-            "title": "SOURCE_DETAIL"
-          },
-          {
-            "name": "SERIES",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number of countries with national adaptation plans [13.2.1]",
-                ""
-              ]
-            },
-            "title": "SDG Series"
-          },
-          {
-            "name": "REF_AREA",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Reference area"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Boolean or binary measure",
-                ""
-              ]
-            },
-            "title": "Unit of measure"
-          },
-          {
-            "name": "GeoCode",
-            "type": "number",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications"
-    },
-    {
-      "path": "13-b-1/data.csv",
-      "name": "13-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "OBS_STATUS",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Normal value",
-                ""
-              ]
-            },
-            "title": "Observation status"
-          },
-          {
-            "name": "UNIT_MULT",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Units",
-                ""
-              ]
-            },
-            "title": "Unit multiplier"
-          },
-          {
-            "name": "SOURCE_DETAIL",
-            "type": "string",
-            "constraints": {
-              "enum": [
                 "CMMD_reports",
                 ""
               ]
@@ -3234,6 +3048,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Number of countries with national adaptation plans [13.2.1]",
                 "Number of least developed countries and small island developing States with national adaptation plans (Number) [13.b.1]",
                 ""
               ]
@@ -3273,7 +3088,7 @@
           }
         ]
       },
-      "title": "Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications"
+      "title": "Number of countries with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications"
     },
     {
       "path": "11-6-1/data.csv",
@@ -5078,8 +4893,8 @@
       "title": "Red List Index"
     },
     {
-      "path": "15-c-1/data.csv",
-      "name": "15-c-1",
+      "path": "15-7-1/data.csv",
+      "name": "15-7-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -9561,6 +9376,100 @@
       "title": "Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information"
     },
     {
+      "path": "10-6-1/data.csv",
+      "name": "10-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Normal value",
+                ""
+              ]
+            },
+            "title": "Observation status"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Zimbabwe_Embassys_Mission_reports_UNGA",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Proportion of members of developing countries in international organizations, by organization [10.6.1, 16.8.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percent",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of members and voting rights of developing countries in international organizations"
+    },
+    {
       "path": "16-8-1/data.csv",
       "name": "16-8-1",
       "profile": "tabular-data-resource",
@@ -9602,7 +9511,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Zimbabwe_Embassys_Mission_reports_UNGA",
                 "MOFAIT",
                 ""
               ]
@@ -9614,7 +9522,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of members of developing countries in international organizations, by organization [10.6.1, 16.8.1]",
                 "Proportion of voting rights of developing countries in international organizations, by organization [10.6.1, 16.8.1]",
                 ""
               ]
@@ -15082,8 +14989,8 @@
       "title": "Developing countries’ and least developed countries’ share of global exports"
     },
     {
-      "path": "13-1-1/data.csv",
-      "name": "13-1-1",
+      "path": "11-5-1/data.csv",
+      "name": "11-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -15125,7 +15032,6 @@
               "enum": [
                 "UNDRR_CPU",
                 "MLGPWNH",
-                "MLGPWNH_CPU",
                 ""
               ]
             },
@@ -15138,7 +15044,6 @@
               "enum": [
                 "Number of directly affected persons attributed to disasters per 100,000 population [1.5.1, 11.5.1, 13.1.1]",
                 "Number of missing persons due to disaster [1.5.1, 11.5.1, 13.1.1]",
-                "Number of deaths and missing persons attributed to disasters [1.5.1, 11.5.1, 13.1.1]",
                 "Number of deaths due to disaster [1.5.1, 11.5.1, 13.1.1]",
                 ""
               ]
@@ -15161,6 +15066,99 @@
             "constraints": {
               "enum": [
                 "Number",
+                ""
+              ]
+            },
+            "title": "Unit of measure"
+          },
+          {
+            "name": "GeoCode",
+            "type": "number",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
+    },
+    {
+      "path": "13-1-1/data.csv",
+      "name": "13-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "OBS_STATUS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Normal value",
+                ""
+              ]
+            },
+            "title": "Observation status"
+          },
+          {
+            "name": "UNIT_MULT",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Units",
+                ""
+              ]
+            },
+            "title": "Unit multiplier"
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MLGPWNH_CPU",
+                ""
+              ]
+            },
+            "title": "SOURCE_DETAIL"
+          },
+          {
+            "name": "SERIES",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of deaths and missing persons attributed to disasters [1.5.1, 11.5.1, 13.1.1]",
+                ""
+              ]
+            },
+            "title": "SDG Series"
+          },
+          {
+            "name": "REF_AREA",
+            "type": "number",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Reference area"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Per 100,000 population",
                 ""
               ]
@@ -16643,6 +16641,30 @@
       "title": "Agricultural export subsidies"
     },
     {
+      "path": "13-b-1/data.csv",
+      "name": "13-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Number of least developed countries and small island developing States with nationally determined contributions, long-term strategies, national adaptation plans, strategies as reported in adaptation communications and national communications"
+    },
+    {
       "path": "14-2-1/data.csv",
       "name": "14-2-1",
       "profile": "tabular-data-resource",
@@ -16787,30 +16809,6 @@
       "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration"
     },
     {
-      "path": "10-6-1/data.csv",
-      "name": "10-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of members and voting rights of developing countries in international organizations"
-    },
-    {
       "path": "17-7-1/data.csv",
       "name": "17-7-1",
       "profile": "tabular-data-resource",
@@ -16905,6 +16903,30 @@
         ]
       },
       "title": "Proportion of time spent on unpaid domestic and care work, by sex, age and location"
+    },
+    {
+      "path": "8-4-1/data.csv",
+      "name": "8-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Material footprint, material footprint per capita, and material footprint per GDP"
     },
     {
       "path": "8-5-1/data.csv",
@@ -17027,30 +17049,6 @@
       "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption)"
     },
     {
-      "path": "15-7-1/data.csv",
-      "name": "15-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of traded wildlife that was poached or illicitly trafficked"
-    },
-    {
       "path": "2-3-2/data.csv",
       "name": "2-3-2",
       "profile": "tabular-data-resource",
@@ -17169,6 +17167,30 @@
         ]
       },
       "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment"
+    },
+    {
+      "path": "12-2-2/data.csv",
+      "name": "12-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
     },
     {
       "path": "12-8-1/data.csv",
@@ -18035,30 +18057,6 @@
       "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries"
     },
     {
-      "path": "11-5-1/data.csv",
-      "name": "11-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
-    },
-    {
       "path": "1-5-4/data.csv",
       "name": "1-5-4",
       "profile": "tabular-data-resource",
@@ -18081,6 +18079,30 @@
         ]
       },
       "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies"
+    },
+    {
+      "path": "15-c-1/data.csv",
+      "name": "15-c-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of traded wildlife that was poached or illicitly trafficked"
     },
     {
       "path": "17-18-1/data.csv",
@@ -18393,30 +18415,6 @@
         ]
       },
       "title": "Mortality rate attributed to household and ambient air pollution"
-    },
-    {
-      "path": "8-4-2/data.csv",
-      "name": "8-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
     },
     {
       "path": "10-4-2/data.csv",
